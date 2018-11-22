@@ -5,3 +5,7 @@ Welcome! This server app is designed to showcase a few apps I've made already. T
 2. HOW TO RUN THIS
 
 After cloning this on your machine, simply type 'npm install' or 'yarn install' to install the dependencies. Then, check the package.json file to see which start script suits your needs (probably npm run start).
+
+3. SOURCES OF HELP
+
+https://medium.com/@binyamin/creating-a-node-express-webpack-app-with-dev-and-prod-builds-a4962ce51334

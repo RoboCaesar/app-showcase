@@ -1,4 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Index from './components/Index';
 
-console.log("page script is loaded! Yay!");
+ReactDOM.render(<Index />, document.getElementById('app'));

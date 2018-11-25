@@ -7,7 +7,7 @@ module.exports = {
     main: './src/scripts/index.js'
   },
   output: {
-    path: path.join(__dirname, 'dist'),
+    path: path.join(__dirname, 'public'),
     publicPath: '/',
     filename: '[name].js'
   },
@@ -41,11 +41,11 @@ module.exports = {
       }
     ]
   },
-  plugins: [
-    new HtmlWebPackPlugin({
-      template: "./src/html/index.html",
-      filename: "./index.html",
-      excludeChunks: [ 'server' ]
-    })
-  ]
+  // plugins: [
+  //   new HtmlWebPackPlugin({
+  //     template: "./src/html/index.html",
+  //     filename: "./index.html",
+  //     excludeChunks: [ 'server' ]
+  //   })
+  // ]
 }

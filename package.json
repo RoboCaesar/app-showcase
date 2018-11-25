@@ -4,8 +4,8 @@
   "description": "A Server app that serves some of my projects to a user",
   "main": "app.js",
   "scripts": {
-    "build": "rm -rf dist && webpack --mode development --config webpack.server.config.js && webpack --mode development",
-    "start": "node ./dist/server.js"
+    "build": "webpack --mode development --config webpack.server.config.js && webpack --mode development",
+    "start": "node ./public/server.js"
   },
   "author": "Thomas Draxler",
   "license": "ISC",

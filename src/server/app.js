@@ -13,8 +13,12 @@ app.get('/', (req, res) => {
 });
 
 app.get('/typing-test', (req, res) => {
-    res.sendFile(path.join(PUBLIC_DIR, './html-prebundled/typing-test.html'));
+    res.sendFile(path.join(PUBLIC_DIR, './typing-test/typing-test.html'));
 });
+
+app.get('/card-matching', (req, res) => {
+    res.sendFile(path.join(PUBLIC_DIR, './card-matching-game/index.html'));
+})
 
 const PORT = process.env.PORT || 3000
 app.listen(PORT, () => {

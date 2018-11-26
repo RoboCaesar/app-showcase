@@ -7,7 +7,7 @@ export default class AppSelect extends React.Component {
                 <ul>
                     <li>instantWeather</li>
                     <li><a href="/typing-test">Typing Test</a></li>
-                    <li>Matching Cards Game</li>
+                    <li><a href="/card-matching">Matching Cards Game</a></li>
                 </ul>
             </div>
         );

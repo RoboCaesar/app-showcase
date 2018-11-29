@@ -41,6 +41,7 @@ module.exports = {
       }
     ]
   },
+  mode: 'production',
   // plugins: [
   //   new HtmlWebPackPlugin({
   //     template: "./src/html/index.html",
